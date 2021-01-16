@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./CSS/mobile.css"
+    />
+    <title>eNno</title>
+  </head>
+  <body>
+    <nav
+      id="navigationBar"
+      class="navbar navbar-expand-lg navbar-dark fixed-top p-0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">eNno</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mr-2">
+              <a class="nav-link" href="#"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="mx-auto p-5">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide mt-4"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img
+                id="img-1"
+                class="d-block mx-auto img-fluid"
+                src="./images/featured.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                id="img-1"
+                class="d-block mx-auto img-fluid"
+                src="./images/showcase.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                id="img-1"
+                class="d-block mx-auto img-fluid"
+                src="./images/showcase.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center col-md-3"></div>
+        <div class="text-center col-md-6">
+          <div class="jumbotron bg-white" id="">
+            <h1>Multi Purpose Theme</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              enim cupiditate, ullam voluptatum magni cumque tenetur numquam eos
+              voluptates earum?
+            </p>
+          </div>
+          <hr cls="col-md-3" />
+        </div>
+        <div class="text-center col-md-3"></div>
+      </div>
+      <!-- Grid Items -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div class="card-header bg-white border-remove">Responsive</div>
+            <div class="card-body">
+              <i class="fa fa-heart-o font-color-green"></i>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                numquam aspernatur!
+              </p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div class="card-header bg-white border-remove">Multi Purpose</div>
+            <div class="card-body">
+              <i class="fas fa-desktop font-color-green"></i>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                numquam aspernatur!
+              </p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div class="card-header bg-white border-remove">Easy Customize</div>
+            <div class="card-body">
+              <i class="fas fa-location-arrow font-color-green"></i>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                numquam aspernatur!
+              </p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div
+              id="text-maincolor"
+              class="card-header bg-white border-remove display-4"
+            >
+              eNno
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur porro commodi non nemo esse sit, magnam ipsam modi?
+                Atque ullam consequuntur quis saepe corporis odit?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div class="card-header bg-white font-weight-bold text-left">
+              Latest Posts
+            </div>
+            <div class="card-header bg-white text-left">
+              This is awesome post title
+            </div>
+            <div class="card-header bg-white text-left">
+              Awesome features are awesome
+            </div>
+            <div class="card-header bg-white text-left">
+              Create your own awesome website
+            </div>
+            <div class="card-header bg-white border-remove text-left">
+              Wow. This is fourth post title
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center border-remove">
+            <div
+              class="card-header bg-white border-remove font-weight-bold text-left"
+            >
+              Stay In Touch
+            </div>
+            <div class="card-body d-flex">
+              <div><i class="fas fa-envelope pr-2"></i></div>
+              <div>
+                <p class="card-text">example@gmail.com</p>
+              </div>
+            </div>
+            <div class="card-body d-flex">
+              <div><i class="fas fa-phone-alt pr-2"></i></div>
+              <div>
+                <p class="card-text">+345 578 59 45 416</p>
+              </div>
+            </div>
+            <div class="card-body d-flex pb-0 pr-0">
+              <div><i class="fas fa-home pr-2"></i></div>
+              <div>
+                <p class="card-text">
+                  Enno Inc | PO Box 23456 Little Lonsdale St
+                </p>
+              </div>
+            </div>
+            <div class="card-body pt-0">
+              <p class="text-left m-0 p-0">New York</p>
+              <p class="text-left m-0 p-0">Victoria 8011 USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footerSection" class="t-2">
+      <div class="container d-flex justify-content-around">
+        <div>
+          <p id="footer-para">&copy; eNno Theme. All Rights Reserved.</p>
+          <p id="footer-para">Designed by UIAssignment01</p>
+        </div>
+        <div>
+          <ul class="d-flex">
+            <li><i class="fab fa-facebook-f nav-link"></i></li>
+            <li><i class="fab fa-twitter nav-link"></i></li>
+            <li><i class="fab fa-linkedin-in nav-link"></i></li>
+            <li><i class="fab fa-google nav-link"></i></li>
+            <li>
+              <i class="fab fa-google-plus-square nav-link"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/23714e2e1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

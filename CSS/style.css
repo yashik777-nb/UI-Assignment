@@ -1,0 +1,48 @@
+:root {
+  --main-color: #0db4bd;
+  --secondary-color: #35cbd0;
+}
+
+#navigationBar,
+#footerSection {
+  background-color: var(--main-color);
+}
+
+#text-maincolor {
+  color: var(--main-color);
+}
+
+.border-remove {
+  border: none;
+}
+
+.font-color-green {
+  color: #a6e5e8;
+  font-size: 48px;
+}
+
+#footer-para {
+  line-height: 2vh;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+nav ul li,
+nav div a {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav ul li:first-child {
+  background-color: var(--secondary-color);
+}
+
+footer ul {
+  list-style: none;
+  align-items: center;
+}
+
+footer ul li,
+footer p {
+  color: white;
+}
