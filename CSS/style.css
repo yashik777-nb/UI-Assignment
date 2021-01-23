@@ -37,6 +37,22 @@ nav ul li:first-child {
   background-color: var(--secondary-color);
 }
 
+#navbarResponsive {
+  width: 100%;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-20%);
+}
+
+#navbarlogo {
+  position: relative;
+  transform: translateX(10%);
+}
+
+footer div div div a {
+  color: white;
+}
+
 footer ul {
   list-style: none;
   align-items: center;
@@ -45,4 +61,21 @@ footer ul {
 footer ul li,
 footer p {
   color: white;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators .active {
+  background-color: aqua;
+}
+
+footer div ul li a:hover {
+  color: var(--secondary-color);
 }

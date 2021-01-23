@@ -3,3 +3,19 @@
   font-size: 0.55rem;
   margin: 0;
 }
+
+#navbarResponsive {
+  transform: translateX(0%);
+}
+
+#navbarlogo {
+  transform: translateX(0%);
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+footer div div ul li i {
+  font-size: 10px;
+}
