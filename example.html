@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Bar Example</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style></style>
+  </head>
+
+  <body>
+    <nav class="navbar bg-red">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Navbar</a>
+        </div>
+
+        <div
+          class="btn-group"
+          role="group"
+          aria-label="Button group with nested dropdown"
+        >
+          <div class="btn-group" role="group">
+            <button
+              id="btnGroupDrop1"
+              type="button"
+              class="btn btn-secondary dropdown-toggle"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Option 1</a>
+              <a class="dropdown-item" href="#">Option 2</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="navbar-form navbar-right">
+          <button type="submit" class="btn btn-default">Login&Signup</button>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              name="search"
+            />
+          </div>
+        </form>
+      </div>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
